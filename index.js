@@ -49,10 +49,18 @@ message: "Why was it built, problem it solve, what was learned?",
 )
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function generateMarkdown(ReadmeMd, questions) {
+
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    then.((inquirerResponse, questions) => {
+        console.log("Making Readme");
+        fs.writeFileSync()
+    })
+}
 
 // Function call to initialize app
 init();
