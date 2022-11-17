@@ -8,6 +8,16 @@ const generateMarkdown = (generateMarkdown.js)
 const questions = [];
 inquirer.prompt([
     {type: "input",
+name: "Title",
+message: "What is the name of your web application?",
+
+},
+{type: "input",
+name: "Description?",
+message: "Describe your web application",
+
+},
+{type: "input",
 name: "What was your motivation?",
 message: "Why was it built, problem it solve, what was learned?",
 
