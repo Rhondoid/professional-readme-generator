@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const path =require('path');
 const generateMarkdown = (generateMarkdown.js)
+const userName = "Rhondoid"
 
 // TODO: Create an array of questions for user input
 const questions = [];
@@ -67,11 +68,19 @@ function generateMarkdown(ReadmeMd, questions) {
 function init() {
     inquirer.prompt(questions)
     then.((inquirerResponse, questions) => {
-        console.log("Making Readme");
-        fs.writeFileSync()
+        console.log("README in progress");
+        fs.writeFileSync("readme-md", inquirerResponse, questions);
+    })
+    .catch((err) => {
+        console.log(questions.data);
     })
 }
 
 // Function call to initialize app
 init();
+const rhondoid = questions.rhondoid
+axios.get('https://api.github.com/users/${Rhondoid}')
+then(questions => {
+    console.log(questions.data)
+});
 
