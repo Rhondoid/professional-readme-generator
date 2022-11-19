@@ -1,86 +1,73 @@
 // TODO: Include packages needed for this application
-const inquirer = require('inquirer');
-const fs = require('fs');
-const path =require('path');
-const generateMarkdown = (generateMarkdown.js)
-const userName = "Rhondoid"
+const inquirer = require("inquirer");
+const fs = require("fs");
+const path = require("path");
+const generateMarkdown = require("./utils/generateMarkdown.js");
+const { log } = require("util");
+const userName = "Rhondoid";
 
 // TODO: Create an array of questions for user input
-const questions = [];
-inquirer.prompt([
-    {type: "input",
-name: "Title",
-message: "What is the name of your web application?",
-
-},
-{type: "input",
-name: "Description?",
-message: "Describe your web application",
-
-},
-{type: "input",
-name: "What was your motivation?",
-message: "Why was it built, problem it solve, what was learned?",
-
-}, 
-{type: "input",
-    name: "Table of Contents",
-    message: "Include a table of Contents",
-},
-{type: "input",
-    name: "Installation",
-    message: "How do you install it?",
-},
-{type: "input",
-    name: "Usage",
-    message: "Include usage?",
-},
-{type: "input",
-    name: "Credits",
-    message: "Add creditors?",
-},
-{type: "input",
-    name: "License",
+const questions = [
+  {
+    type: "input",
+    name: "title",
+    message: "What is the name of your web application?",
+  },
+  {
+    type: "input",
+    name: "description",
+    message: "Describe your web application",
+  },
+  {
+    type: "input",
+    name: "motivation",
+    message: "Why was it built, problem it solve, what was learned?",
+  },
+  { type: "input", name: "credits", message: "Any creditors?" },
+  { type: "input", name: "installation", message: "How do you install it?" },
+  { type: "input", name: "usage", message: "What usage do you have" },
+  {
+    type: "input",
+    name: "license",
     message: "What license do you want to include",
-},
-{type: "input",
-    name: "Badges",
-    message: "Do you have badges to include",
-},
-{type: "input",
-    name: "Features",
+  },
+  { type: "input", name: "badges", message: "Do you have badges to include" },
+  {
+    type: "input",
+    name: "features",
     message: "Does your web application have a lot of features?",
-},
-{type: "input",
-    name: "How to Contribute",
+  },
+  {
+    type: "input",
+    name: "contribute",
     message: "Do you want to add how to contribute",
-},
-]
-
-)
+  },
+  {
+    type: "input",
+    name: "test",
+    message: "Do you have any tests?",
+  },
+];
 
 // TODO: Create a function to write README file
-function generateMarkdown(ReadmeMd, questions) {
-
-}
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions)
-    then.((inquirerResponse, questions) => {
-        console.log("README in progress");
-        fs.writeFileSync("readme-md", inquirerResponse, questions);
+  inquirer
+    .prompt(questions)
+    .then((answersResponse) => {
+      console.log(answersResponse.title);
+      let generatedString = generateMarkdown(answersResponse);
+      console.log(generatedString);
+      fs.writeFileSync("./Output/README.md", generatedString, function (err) {
+        if (err) console.log(err);
+        console.log("readme generator successful");
+      });
     })
     .catch((err) => {
-        console.log(questions.data);
-    })
+      console.log(err);
+    });
 }
 
 // Function call to initialize app
 init();
-const rhondoid = questions.rhondoid
-axios.get('https://api.github.com/users/${Rhondoid}')
-then(questions => {
-    console.log(questions.data)
-});
-
