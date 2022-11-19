@@ -17,11 +17,11 @@
 
   <a name="title"></a>
   ## Description
-  application designed to generate README files
+  an application to generate README files
 
   <a name="title"></a> 
   ## Motivation
-  to simplfy the process of adding README files to repositories
+  to simplify the process of adding a README file to repositories
 
   <a name="title"></a>
   ## Credits
