@@ -1,12 +1,12 @@
-// TODO: Include packages needed for this application
+// Included are packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 const { log } = require("util");
-const userName = "Rhondoid";
 
-// TODO: Create an array of questions for user input
+
+// Array of questions for user input
 const questions = [
   {
     type: "input",
@@ -49,9 +49,8 @@ const questions = [
   },
 ];
 
-// TODO: Create a function to write README file
+// This function writes README file and initiates app
 
-// TODO: Create a function to initialize app
 function init() {
   inquirer
     .prompt(questions)

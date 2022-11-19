@@ -75,6 +75,9 @@ function generateMarkdown(response) {
   ## Contribute
   ${response.contribute}
   
+  <a name="title"></a>
+  ## Tests
+  ${response.tests}
 
 
 
