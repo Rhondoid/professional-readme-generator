@@ -12,17 +12,18 @@
   9. [ Test ](#Test)
   10. [ Questions ](#Questions)
 
-  <a name="title"></a
+
+  
   ## Title
-  README.md
+  README-md
 
   <a name="description"></a>
   ## Description
-  this is an application to generate a README file
+  this is an application that will generate a README file for projects
 
   <a name="motivation"></a> 
   ## Motivation
-  this was built as a tool to simplify the process of adding a README file to projects
+  this was built to simplify the process of adding a README file to projects
 
   <a name="credits"></a>
   ## Credits
@@ -30,7 +31,7 @@
 
   <a name="license"></a>
   ## License
-  Mit
+  MIT
 
   <a name="badge"></a>
   ## Badge
@@ -42,7 +43,7 @@
 
   <a name="contribution"></a>
   ## Contribute
-  
+  no
   
   <a name="test"></a>
   ## Test
@@ -50,7 +51,7 @@
 
   <a name="questions"></a>
   ## Questions
-  smackeral69@live.com, https://github.com/Rhondoid/readme-md
+  smackeral69@live.com, https://github.com/Rhondoid/readme-md/tree/main/Output
 
 
 
