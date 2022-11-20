@@ -1,28 +1,28 @@
 
 
   # Table_of_Contents:
-  1. [ Title. ](#Title)
-  2. [ Description. ](#Description)
-  3. [ Motivation. ](#Motivation)
-  4. [ Credits. ](#Credits)
-  5. [ Installation. ](#Installation)
-  6. [ Usage. ](#Usage)
-  7. [ License. ](#License)
-  8. [ Contribute. ](#Contribute)
-  9. [ Test. ](#Test)
-  10. [ Questions. ](#Questions)
+  1. [ Title ](#Title)
+  2. [ Description ](#Description)
+  3. [ Motivation ](#Motivation)
+  4. [ Credits ](#Credits)
+  5. [ Installation ](#Installation)
+  6. [ Usage ](#Usage)
+  7. [ License ](#License)
+  8. [ Contribute ](#Contribute)
+  9. [ Test ](#Test)
+  10. [ Questions ](#Questions)
 
-  <a name="title"></a>
+  <a name="title"></a
   ## Title
   README.md
 
   <a name="description"></a>
   ## Description
-  will generate a README file for projects
+  this is an application to generate a README file
 
   <a name="motivation"></a> 
   ## Motivation
-  this application was created as a tool to simplify the process of adding README files to new projects
+  this was built as a tool to simplify the process of adding a README file to projects
 
   <a name="credits"></a>
   ## Credits
@@ -30,11 +30,11 @@
 
   <a name="license"></a>
   ## License
-  MIT
+  Mit
 
-  <a name="badges"></a>
-  ## Badges
-  undefined
+  <a name="badge"></a>
+  ## Badge
+  MIT
 
   <a name="features"></a>
   ## Features
@@ -42,11 +42,11 @@
 
   <a name="contribution"></a>
   ## Contribute
-  no
   
-  <a name="tests"></a>
-  ## Tests
-  undefined
+  
+  <a name="test"></a>
+  ## Test
+  no
 
   <a name="questions"></a>
   ## Questions
