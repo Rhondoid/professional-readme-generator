@@ -13,15 +13,15 @@
 
   <a name="title"></a>
   ## Title
-  README
+  README.md
 
   <a name="title"></a>
   ## Description
-  an application to generate README files
+  this is an application that generates README files
 
   <a name="title"></a> 
   ## Motivation
-  to simplify the process of adding a README file to repositories
+  it was created as a tool to simplify adding new README files to repositories
 
   <a name="title"></a>
   ## Credits
@@ -33,7 +33,7 @@
 
   <a name="title"></a>
   ## Badges
-  MIT
+  no
 
   <a name="title"></a>
   ## Features
@@ -43,6 +43,9 @@
   ## Contribute
   no
   
+  <a name="title"></a>
+  ## Tests
+  undefined
 
 
 
