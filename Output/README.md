@@ -13,17 +13,17 @@
   10. [ Questions ](#Questions)
 
 
-  
+  <a name="title"></a>
   ## Title
   README-md
 
   <a name="description"></a>
   ## Description
-  this is an application that will generate a README file for projects
+  this is an application to generate README files for projects
 
   <a name="motivation"></a> 
   ## Motivation
-  this was built to simplify the process of adding a README file to projects
+  this was built as a tool to simplify adding a README to projects
 
   <a name="credits"></a>
   ## Credits
@@ -51,7 +51,7 @@
 
   <a name="questions"></a>
   ## Questions
-  smackeral69@live.com, https://github.com/Rhondoid/readme-md/tree/main/Output
+  smackeral69@live.com,  https://github.com/Rhondoid/readme-md
 
 
 
