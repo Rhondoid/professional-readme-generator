@@ -5,6 +5,8 @@ const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 const { log } = require("util");
 
+let renderLicenseBadge= ("badge")
+let renderLicenseLink=("license")
 
 // Array of questions for user input
 const questions = [
@@ -31,7 +33,10 @@ const questions = [
     name: "license",
     message: "What license do you want to include",
   },
-  { type: "input", name: "badges", message: "Do you have badges to include" },
+  { type: "input", 
+    name: "badge", 
+    message: "Do you have badges to include" 
+  },
   {
     type: "input",
     name: "features",
@@ -46,6 +51,11 @@ const questions = [
     type: "input",
     name: "test",
     message: "Do you have any tests?",
+  },
+  {
+    type: "input",
+    name: "questions",
+    message: "Do you have any questions?",
   },
 ];
 
